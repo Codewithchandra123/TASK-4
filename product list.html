@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing Page</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Online Store</h1>
+    </header>
+
+    <main>
+        <!-- Filters Section -->
+        <section id="filters" class="filters">
+            <h2>Filter Products</h2>
+            <div>
+                <label for="category">Category:</label>
+                <select id="category">
+                    <option value="all">All Categories</option>
+                    <option value="mobiles">Mobiles</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="ingredients">Ingredients</option>
+                    <option value="chocolates">chocolates</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="price">Sort by Price:</label>
+                <select id="price">
+                    <option value="default">Select</option>
+                    <option value="low-to-high">Low to High</option>
+                    <option value="high-to-low">High to Low</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="rating">Sort by Rating:</label>
+                <select id="rating">
+                    <option value="default">Select</option>
+                    <option value="high-to-low">High to Low</option>
+                    <option value="low-to-high">Low to High</option>
+                </select>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="product-list" class="product-list">
+            <!-- Product 1 -->
+            <div class="product" data-category="mobiles" data-price="499" data-rating="4">
+                <img src="e:\apex planet\TASK 4\phone img.1.jpeg" alt="Mobile 1">
+                <h3>VIVO Y75 </h3>
+                <p>Price: $199</p>
+                <div class="rating">★★★★☆</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product" data-category="mobiles" data-price="699" data-rating="5">
+                <img src="e:\apex planet\TASK 4\phone img.2.jpeg" alt="Mobile 2">
+                <h3>IPHONE 13</h3>
+                <p>Price: $299</p>
+                <div class="rating">★★★★★</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product" data-category="clothing" data-price="39" data-rating="3">
+                <img src="e:\apex planet\TASK 4\shirt img.1.jpeg" alt="Shirt 1">
+                <h3>Shirt 1</h3>
+                <p>Price: $59</p>
+                <div class="rating">★★★☆☆</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product" data-category="clothing" data-price="59" data-rating="4">
+                <img src="e:\apex planet\TASK 4\shirt img.2.jpeg" alt="Shirt 2">
+                <h3>Shirt 2</h3>
+                <p>Price: $39</p>
+                <div class="rating">★★★★☆</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product" data-category="ingredients" data-price="5" data-rating="5">
+                <img src="E:\apex planet\TASK 4\rice img.jpeg" alt="Ingredient 1">
+                <h3>Rice 1kg</h3>
+                <p>Price: $5</p>
+                <div class="rating">★★★★★</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product" data-category="ingredients" data-price="4" data-rating="4">
+                <img src="e:\apex planet\TASK 4\wheat img.jpeg" alt="Ingredient 2">
+                <h3>Wheat 1kg</h3>
+                <p>Price: $4</p>
+                <div class="rating">★★★★☆</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <!--PRODUCT 7-->
+            <div class="product" data-category="ingredients" data-price="5" data-rating="5">
+                <img src="ghee 1.jpeg" alt="Ingredient 1">
+                <h3> GHEE 1kg</h3>
+                <p>Price: $5</p>
+                <div class="rating">★★★★★</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <!--product 8-->
+            <div class="product" data-category="ingredients" data-price="4" data-rating="4">
+                <img src="ghee 2.jpeg" alt="Ingredient 2">
+                <h3>Ghee 1kg</h3>
+                <p>Price: $3</p>
+                <div class="rating">★★★★☆</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <!--product 9-->
+            <div class="product" data-category="ingredients" data-price="4" data-rating="4">
+                <img src="ground nut1.jpeg" alt="Ingredient 2">
+                <h3>Ground nut</h3>
+                <p>Price: $4</p>
+                <div class="rating">★★★★☆</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <!--product10-->
+            <div class="product" data-category="ingredients" data-price="5" data-rating="5">
+                <img src="ground nut 2.jpeg" alt="Ingredient 1">
+                <h3>Ground nuts</h3>
+                <p>Price: $6</p>
+                <div class="rating">★★★★★</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <!--product11-->
+            <div class="product" data-category="chocolates" data-price="5" data-rating="5">
+                <img src="dairy milk 1.jpeg" alt="chocolates 1">
+                <h3>Dairy Milk</h3>
+                <p>Price: $2</p>
+                <div class="rating">★★★★★</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <!--product12-->
+            <div class="product" data-category="ingredients" data-price="4" data-rating="4">
+                <img src="dairy milk 2.jpeg" alt= "chocolates 2">
+                <h3>Dairy Milk</h3>
+                <p>Price: $1</p>
+                <div class="rating">★★★★☆</div>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your E-Commerce Site</p>
+    </footer>
+
+    <script src="product.js"></script>
+</body>
+</html>

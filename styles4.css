@@ -282,6 +282,8 @@ footer p {
 @media (max-width: 68px) {
     .about-content {
         flex-direction: column; /* Stack content vertically on smaller screens */
+        display: flex;
+        
     }
 
     .about-content img.about-photo {
